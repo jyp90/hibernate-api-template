@@ -1,0 +1,12 @@
+server:
+  port: 8180
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: jypark
+    password: 1234
+    url: jdbc:mysql://localhost:3306/jpa_test?serverTimezone=Asia/Seoul&useSSL=false&characterEncoding=UTF-8
+
